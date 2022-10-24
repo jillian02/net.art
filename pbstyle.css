@@ -1,0 +1,149 @@
+body {
+    background-color: darkseagreen;
+    color: whitesmoke;
+}
+
+a:hover, a:active, 
+a:visited, a:link{
+        text-decoration: none;
+        color:darkolivegreen;}
+
+#title {height: 200px;
+    width: 89.5%;
+    position: absolute;
+    text-align: center;
+    top: 160px;
+    left: 5%;
+    right: 5%;}
+
+#section {height: 80px;
+    width: 89.5%;
+    position: absolute;
+    text-align: center;
+    top: 160px;
+    left: 5%;
+    right: 5%;}
+
+#next{
+    text-align: center;
+  position: absolute;
+  top: 700px;
+  right: 5%;
+  width: 100px;
+  height: 50px;
+}
+
+#prev{
+    text-align: center;
+  position: absolute;
+  top: 700px;
+  left: 5%;
+  width: 100px;
+  height: 50px;
+}
+
+#next1{
+    text-align: center;
+  position: absolute;
+  top: 650px;
+  right: 5%;
+  width: 100px;
+  height: 50px;
+}
+
+#prev1{
+    text-align: center;
+  position: absolute;
+  top: 650px;
+  left: 5%;
+  width: 100px;
+  height: 50px;
+}
+
+#backtotop{
+    text-align: center;
+    position: fixed;
+    top: 620px;
+    float: right;
+    background-color:rgba(255,255,255,0.9);
+    right: 5%;
+    width: 100px;
+    height: 50px;    
+}
+
+h2{margin: 0;}
+
+h3{ margin-top: 2pt;line-height: 40pt; margin-bottom: 2pt;}
+
+#projecttitle {
+    float:left;
+    height: 100px;
+    width: auto;
+    position: absolute;
+    top:0;
+    left:5%;
+    font-size: 1.75em;
+}
+
+#navigation{
+    justify-content: space-evenly;
+    display: inline-flex;
+    height: 33px;
+    width: 85%;
+    padding: 15px 20px 0px;
+    position: absolute;
+    top: 110px;
+    left: 5%;
+}
+
+#statement {
+    height: 420px;
+    width: 89.5%;
+    position: absolute;
+    top: 160px;
+    left: 5%;
+    right: 5%;
+}
+
+#research {float:left;
+    height: 400px;
+    width: 33%;
+    position: absolute;
+    top: 242px;
+    right: 5%;
+    padding-left: 10px;}
+
+#imgsupport {    
+    float:left;
+    height: 400px;
+    width: 55%;
+    position: absolute;
+    top: 242px;
+    left: 5%;}
+
+#develop {    
+    height: 400px;
+    width: 55%;
+    position: absolute;
+    top: 242px;
+    left: 5%;}
+
+#ss1 {
+    justify-content: space-between;
+    display: inline-flex;
+    height: 200px;
+    width: 89.5%;
+    position: absolute;
+    top: 570px;
+    left: 5%;}
+
+#reflection {
+    height: 400px;
+    width: 89.5%;
+    position: absolute;
+    top: 820px;
+    left: 5%;
+    right: 5%;
+}
+
+    border: 2px red solid;

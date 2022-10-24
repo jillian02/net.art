@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>you chose 'a'</title>
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            background-image: url(images/waves.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: fixed;
+            top: 0;}
+        
+        div {width: 90%; height: 90%; position: fixed; top: 10%; left: 5%}
+    </style>
+</head>
+
+<body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <audio id="audio" controls autoplay loop>
+          <source src="alarm.mp3"/>
+        </audio>
+    
+    <div id="div4">
+        
+    <h1 style="color:white; font-family: sans-serif; font-style: oblique; font-size: 180px; text-align: center; margin-top: 20%">HURRY</h1>
+
+
+<script>
+    var audio = $("#audio")[0];
+    $("#div4").mouseenter(function() {
+    audio.play();
+     audio.loop = true;
+    });
+    $("#div4").mouseleave(function() {
+    audio.pause();
+    });
+</script> 
+
+ </div>
+</body>
+
+</html>
+
+
